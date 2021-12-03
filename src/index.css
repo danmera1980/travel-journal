@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+hr{
+  border: 1px solid #F5F5F5;
+  width: 90%;
+}
+.header {
+  background: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+.header i,span{
+  margin: 0;
+  padding: 5px;
+}
+
+.header i {
+  font-size: 30px;
+}
+
+.card{
+  margin: 20px auto;
+  display: flex;
+  width: 600px;
+  
+}
+
+.photo{
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.country{
+  display: flex;
+  margin-top: 20px; 
+  font-size: 12px;   
+}
+
+.location{
+  margin: 0;
+  font-size: 20px;
+  color: #F55A5A;
+}
+
+.country a{
+  color: #918E9B;
+  font-size: 11px;
+  margin: 0;
+  padding: 5px;
+}
+
+.date{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 12px;
+  color: #2B283A;
+  padding-bottom: 9px;
+}
+
+.description{
+  font-size: 12px;
+  line-height: 150%;
+  color: #2B283A;
+  text-justify: distribute-all-lines;
+  width: 400px;
+}
